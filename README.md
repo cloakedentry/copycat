@@ -19,8 +19,8 @@ git clone https://github.com/cloakedentry/copycat.git
 You will need a URL or a file with the target URLs one per line. 
 
 ```
-python3 copycat.py -h <help>
-python3 copycat.py -u < for single url>
-python3 -f <txt file containing multiple URLS> 
-python3 -o <output directory for html not required>
+python copycat.py -h <help>
+python copycat.py -u < for single url>
+python -f <txt file containing multiple URLS> 
+python -o <output directory for html not required>
 ```
